@@ -22,7 +22,7 @@ function weatherData(lat, lon, coordinates) {
     .then((response) => response.json())
     .then((data) => {
       console.log("Bilgiler:", data);
-      let result = Math.round((data.main.temp - 273.15));
+      let result = Math.round((data.main.temp - 273.15))
       let name = data.name;
       let info = `Konum: ${name}<br>Hava Sıcaklığı: ${result}°C` 
         new mapboxgl.Popup()
