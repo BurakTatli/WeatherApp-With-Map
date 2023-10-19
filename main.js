@@ -13,7 +13,7 @@ let map = new mapboxgl.Map({
 map.on('click', function(e){
   const coordinates = e.lngLat;
   console.log("Konum:", coordinates)
-  weatherData(coordinates.lat, coordinates.lng, coordinates);
+  weatherData(coordinates.lat, coordinates.lng, coordinates)
 });
 
 function weatherData(lat, lon, coordinates) {
