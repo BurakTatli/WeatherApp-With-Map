@@ -17,7 +17,7 @@ map.on('click', function(e){
 });
 
 function weatherData(lat, lon, coordinates) {
-  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}`;
+  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}`
   fetch(weatherUrl)
     .then((response) => response.json())
     .then((data) => {
