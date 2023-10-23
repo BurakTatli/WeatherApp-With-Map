@@ -28,7 +28,7 @@ function weatherData(lat, lon, coordinates) {
         new mapboxgl.Popup()
         .setLngLat(coordinates)
         .setHTML(info)
-        .addTo(map);
+        .addTo(map)
     });
 
 }
