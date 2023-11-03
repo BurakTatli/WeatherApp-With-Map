@@ -31,6 +31,6 @@ function weatherData(lat, lon, coordinates) {
         .addTo(map)
     });
 
-}
+};
 
 
