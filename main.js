@@ -1,7 +1,7 @@
 // Map API
 mapboxgl.accessToken ="pk.eyJ1IjoidGF0bGlidXJhayIsImEiOiJjbG5uZmxiZmUwNWU4MmxwMTF4aTh3cnl2In0.2PPlPD95nN9_ewnsG5PGag";
 //  Weather API
-const weatherApiKey = "4ff3cbd9c59a732ddb20f205d22b6f31"
+const weatherApiKey = "4ff3cbd9c59a732ddb20f205d22b6f31";
 
 let map = new mapboxgl.Map({
   container: "map",
