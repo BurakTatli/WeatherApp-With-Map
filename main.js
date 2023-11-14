@@ -8,7 +8,7 @@ let map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v11",
   center: { lat: 39, lng: 35 },
   zoom: 5.5,
-});
+})
 
 map.on('click', function(e){
   const coordinates = e.lngLat
