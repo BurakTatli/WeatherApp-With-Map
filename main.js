@@ -14,7 +14,7 @@ map.on('click', function(e){
   const coordinates = e.lngLat
   console.log("Konum:", coordinates)
   weatherData(coordinates.lat, coordinates.lng, coordinates)
-});
+})
 
 function weatherData(lat, lon, coordinates) {
   const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}`
